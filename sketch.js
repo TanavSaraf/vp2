@@ -31,6 +31,7 @@ background(46, 139, 87);
 console.log(foods);
 fill("black")
 textSize(19)
+text("press up arrow to feed",100,100)
 text("Food Stock Left"+" : " +foods,170,240)
 
 if(keyWentDown(UP_ARROW)&&foodStock!==0)
